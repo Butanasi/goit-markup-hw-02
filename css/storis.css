@@ -1,0 +1,25 @@
+:root {
+  --bg-color: #ffffff;
+  --bg-color-one: rgba(245, 244, 250, 1);
+  --color-text: rgba(33, 33, 33, 1);
+  --color-text-one: rgba(117, 117, 117, 1);
+}
+/*шапка*/
+body {
+  background-color: var(--bg-color);
+  color: var(--color-text);
+}
+/*шапка*/
+/*logo*/
+.logo {
+  color: rgba(0, 0, 0, 1);
+}
+.splogo {
+  color: rgba(33, 150, 243, 1);
+}
+/*link шапка*/
+.headlink {
+}
+.list {
+  list-style: none;
+}
