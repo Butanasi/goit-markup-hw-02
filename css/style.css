@@ -1,35 +1,190 @@
 :root {
-  --bg-color: #ffffff;
-  --bg-color-alt: rgba(245, 244, 250, 1);
-  --color-text: rgba(33, 33, 33, 1);
-  --color-text-alt: rgba(117, 117, 117, 1);
-  --color-link: rgba(33, 150, 243, 1);
+  --font-family: Roboto, sans-serif;
+  --letter-spacing: 0.03em;
 }
-/*шапка*/
-.page {
-  background-color: var(--bg-color);
-  color: var(--color-text);
+body {
+  font-family: var(--font-family);
+  letter-spacing: var(--letter-spacing);
 }
-/*шапка*/
-/*logo*/
-.logo {
-  color: rgba(0, 0, 0, 1);
-}
-.splogo {
-  color: var(--color-link);
-}
-/*link шапка*/
-.headlink:hover,
-.headlink:focus {
-  color: var(--color-link);
-}
+
+/*=============COMPONENT=============*/
 .list {
   list-style: none;
 }
-
-.bth {
-  background-color: var(--color-link);
+/*=============END COMPONENT=============*/
+/*=============HEADER=============*/
+.nav {
 }
-.gop {
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #000000;
+}
+.spanlogo {
+  color: #2196f3;
+}
+.nav-list {
+}
+.nav-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.nav-list-link:focus,
+.nav-list-link:hover {
+  color: #2196f3;
+}
+.contackt-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.contackt-link:hover,
+.contackt-link:focus {
+  color: #2196f3;
+}
+/*=============END HEADER=============*/
+/*=============HERO=============*/
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
   text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: #2196f3;
+  cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
+}
+/*=============END HERO=============*/
+/*=============RULES=============*/
+.rules {
+}
+.rules-list {
+}
+.rules-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #212121;
+}
+.rules-about {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #757575;
+}
+/*=============END RULES=============*/
+/*=============WHAT WE DO=============*/
+.what-we-do {
+}
+.what-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: #212121;
+}
+.what-list {
+}
+.what-img {
+}
+/*=============END WHAT WE DO=============*/
+/*=============OUR TEAM=============*/
+.our-team {
+}
+.our-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: #212121;
+}
+.our-team-list {
+}
+.our-team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: #212121;
+}
+.our-team-work {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  color: #757575;
+}
+/*=============END OUR TEAM=============*/
+/*=============PORTFOLIO=============*/
+.filters {
+}
+.filters-list {
+}
+.filters-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: #212121;
+}
+.filters-btn:focus,
+.filters-btn:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.gallery {
+}
+.gallery-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.gallery-about {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #757575;
+}
+/*=============END PORTFOLIO=============*/
+/*=============FOOTER=============*/
+.footer {
+  background-color: rgba(0, 0, 0, 1);
+}
+.footer-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #ffffff;
+}
+.adres {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
+}
+/*=============END FOOTER=============*/
