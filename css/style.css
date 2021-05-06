@@ -1,0 +1,35 @@
+:root {
+  --bg-color: #ffffff;
+  --bg-color-alt: rgba(245, 244, 250, 1);
+  --color-text: rgba(33, 33, 33, 1);
+  --color-text-alt: rgba(117, 117, 117, 1);
+  --color-link: rgba(33, 150, 243, 1);
+}
+/*шапка*/
+.page {
+  background-color: var(--bg-color);
+  color: var(--color-text);
+}
+/*шапка*/
+/*logo*/
+.logo {
+  color: rgba(0, 0, 0, 1);
+}
+.splogo {
+  color: var(--color-link);
+}
+/*link шапка*/
+.headlink:hover,
+.headlink:focus {
+  color: var(--color-link);
+}
+.list {
+  list-style: none;
+}
+
+.bth {
+  background-color: var(--color-link);
+}
+.gop {
+  text-align: center;
+}
