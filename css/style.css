@@ -4,21 +4,42 @@
   --color-link: #2196f3;
   --color-title: #212121;
   --font-title: 700;
+  --font-size: 14px;
 }
 body {
   font-family: var(--font-family);
   letter-spacing: var(--letter-spacing);
   color: #757575;
+  font-size: var(--font-size);
 }
 
 /*=============COMPONENT=============*/
 .list {
   list-style: none;
 }
+.links {
+  font-weight: 500;
+  font-size: var(--font-size);
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--color-title);
+  text-decoration: none;
+}
+.links:focus,
+.links:hover {
+  color: var(--color-link);
+}
+.link {
+  color: var(--color-link);
+}
+.title {
+  font-weight: var(--font-title);
+  font-size: 36px;
+  line-height: 1.16;
+  color: var(--color-title);
+}
 /*=============END COMPONENT=============*/
 /*=============HEADER=============*/
-.navigation {
-}
 .logo {
   font-family: Raleway, sans-serif;
   font-weight: var(--font-title);
@@ -30,34 +51,7 @@ body {
 .spanlogo {
   color: var(--color-link);
 }
-.navigation-list {
-}
-.navigation-intem {
-}
-.nav-list-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--color-title);
-  text-decoration: none;
-}
-.nav-list-link:focus,
-.nav-list-link:hover {
-  color: var(--color-link);
-}
-.contackt-link {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #757575;
-  text-decoration: none;
-}
-.contackt-link:hover,
-.contackt-link:focus {
-  color: var(--color-link);
-}
+
 /*=============END HEADER=============*/
 /*=============HERO=============*/
 .hero {
@@ -88,54 +82,32 @@ body {
 }
 /*=============END HERO=============*/
 /*=============RULES=============*/
-.rules {
-}
-.rules-list {
-}
+
 .rules-title {
-  font-weight: var(--font-title);
   font-size: 14px;
   line-height: 1.14;
-  text-transform: uppercase;
-  color: var(--color-title);
 }
 .rules-about {
-  font-size: 14px;
   line-height: 1.71;
 }
 /*=============END RULES=============*/
 /*=============WHAT WE DO=============*/
-.what-we-do {
-}
+
 .what-title {
-  font-weight: var(--font-title);
-  font-size: 36px;
-  line-height: 1.16;
   text-align: center;
-  color: var(--color-title);
 }
-.what-list {
-}
-.what-img {
-}
+
 /*=============END WHAT WE DO=============*/
 /*=============OUR TEAM=============*/
-.our-team {
-}
+
 .our-team-title {
-  font-weight: var(--font-title);
-  font-size: 36px;
-  line-height: 1.16;
   text-align: center;
-  color: var(--color-title);
 }
-.our-team-list {
-}
+
 .our-team-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  color: var(--color-title);
 }
 .our-team-work {
   font-size: 16px;
@@ -143,10 +115,6 @@ body {
 }
 /*=============END OUR TEAM=============*/
 /*=============PORTFOLIO=============*/
-.filters {
-}
-.filters-list {
-}
 .filters-btn {
   font-weight: 500;
   font-size: 16px;
@@ -160,14 +128,10 @@ body {
   color: #ffffff;
   background-color: var(--color-link);
 }
-.gallery {
-}
 .gallery-title {
-  font-weight: var(--font-title);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--color-title);
 }
 .gallery-about {
   font-size: 16px;
@@ -179,15 +143,12 @@ body {
   background-color: rgba(0, 0, 0, 1);
 }
 .basement-logo {
-  font-family: Raleway, sans-serif;
-  font-weight: var(--font-title);
-  font-size: 26px;
-  line-height: 1.19;
   color: #ffffff;
-  text-decoration: none;
+}
+.ft-adres {
+  font-style: normal;
 }
 .adres {
-  font-size: 14px;
   line-height: 1.71;
   color: #ffffff;
   text-decoration: none;
