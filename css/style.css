@@ -15,9 +15,6 @@ body {
 .list {
   list-style: none;
 }
-.link:active {
-  color: var(--color-link);
-}
 /*=============END COMPONENT=============*/
 /*=============HEADER=============*/
 .navigation {
