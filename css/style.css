@@ -153,6 +153,7 @@ body {
   line-height: 1.62;
   text-align: center;
   color: var(--color-title);
+  cursor: pointer;
 }
 .filters-btn:focus,
 .filters-btn:hover {
