@@ -1,10 +1,14 @@
 :root {
   --font-family: Roboto, sans-serif;
   --letter-spacing: 0.03em;
+  --color-link: #2196f3;
+  --color-title: #212121;
+  --font-title: 700;
 }
 body {
   font-family: var(--font-family);
   letter-spacing: var(--letter-spacing);
+  color: #757575;
 }
 
 /*=============COMPONENT=============*/
@@ -13,30 +17,34 @@ body {
 }
 /*=============END COMPONENT=============*/
 /*=============HEADER=============*/
-.nav {
+.navigation {
 }
 .logo {
   font-family: Raleway, sans-serif;
-  font-weight: 700;
+  font-weight: var(--font-title);
   font-size: 26px;
   line-height: 1.19;
   color: #000000;
+  text-decoration: none;
 }
 .spanlogo {
-  color: #2196f3;
+  color: var(--color-link);
 }
-.nav-list {
+.navigation-list {
+}
+.navigation-intem {
 }
 .nav-list-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--color-title);
+  text-decoration: none;
 }
 .nav-list-link:focus,
 .nav-list-link:hover {
-  color: #2196f3;
+  color: var(--color-link);
 }
 .contackt-link {
   font-weight: 500;
@@ -44,10 +52,11 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  text-decoration: none;
 }
 .contackt-link:hover,
 .contackt-link:focus {
-  color: #2196f3;
+  color: var(--color-link);
 }
 /*=============END HEADER=============*/
 /*=============HERO=============*/
@@ -64,13 +73,13 @@ body {
   color: #ffffff;
 }
 .hero-btn {
-  font-weight: 700;
+  font-weight: var(--font-title);
   font-size: 16px;
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: var(--color-link);
   cursor: pointer;
 }
 .hero-btn:hover,
@@ -84,28 +93,26 @@ body {
 .rules-list {
 }
 .rules-title {
-  font-weight: 700;
+  font-weight: var(--font-title);
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--color-title);
 }
 .rules-about {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  color: #757575;
 }
 /*=============END RULES=============*/
 /*=============WHAT WE DO=============*/
 .what-we-do {
 }
 .what-title {
-  font-weight: 700;
+  font-weight: var(--font-title);
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  color: #212121;
+  color: var(--color-title);
 }
 .what-list {
 }
@@ -116,11 +123,11 @@ body {
 .our-team {
 }
 .our-team-title {
-  font-weight: 700;
+  font-weight: var(--font-title);
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  color: #212121;
+  color: var(--color-title);
 }
 .our-team-list {
 }
@@ -128,13 +135,11 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  color: #212121;
+  color: var(--color-title);
 }
 .our-team-work {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
-  color: #757575;
 }
 /*=============END OUR TEAM=============*/
 /*=============PORTFOLIO=============*/
@@ -147,44 +152,43 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  color: #212121;
+  color: var(--color-title);
 }
 .filters-btn:focus,
 .filters-btn:hover {
   color: #ffffff;
-  background-color: #2196f3;
+  background-color: var(--color-link);
 }
 .gallery {
 }
 .gallery-title {
-  font-weight: 700;
+  font-weight: var(--font-title);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--color-title);
 }
 .gallery-about {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-  color: #757575;
 }
 /*=============END PORTFOLIO=============*/
 /*=============FOOTER=============*/
-.footer {
+.basement {
   background-color: rgba(0, 0, 0, 1);
 }
-.footer-logo {
+.basement-logo {
   font-family: Raleway, sans-serif;
-  font-weight: 700;
+  font-weight: var(--font-title);
   font-size: 26px;
   line-height: 1.19;
   color: #ffffff;
+  text-decoration: none;
 }
 .adres {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   color: #ffffff;
+  text-decoration: none;
 }
 /*=============END FOOTER=============*/
