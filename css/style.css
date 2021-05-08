@@ -5,12 +5,17 @@
   --color-title: #212121;
   --font-title: 700;
   --font-size: 14px;
+  --background-color: #ffffff;
+  --background: #f5f4fa;
+  --color-text: #757575;
+  --color-text-two: #ffffff;
 }
 body {
   font-family: var(--font-family);
   letter-spacing: var(--letter-spacing);
-  color: #757575;
+  color: var(--color-text);
   font-size: var(--font-size);
+  background-color: var(--background-color);
 }
 
 /*=============COMPONENT=============*/
@@ -51,6 +56,9 @@ body {
 .spanlogo {
   color: var(--color-link);
 }
+.con-link {
+  color: var(--color-text);
+}
 
 /*=============END HEADER=============*/
 /*=============HERO=============*/
@@ -64,7 +72,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--color-text-two);
 }
 .hero-btn {
   font-weight: var(--font-title);
@@ -72,7 +80,7 @@ body {
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--color-text-two);
   background-color: var(--color-link);
   cursor: pointer;
 }
@@ -86,6 +94,7 @@ body {
 .rules-title {
   font-size: 14px;
   line-height: 1.14;
+  text-transform: uppercase;
 }
 .rules-about {
   line-height: 1.71;
@@ -99,7 +108,12 @@ body {
 
 /*=============END WHAT WE DO=============*/
 /*=============OUR TEAM=============*/
-
+.our-team {
+  background-color: var(--background);
+}
+.our-team-intem {
+  background-color: var(--background-color);
+}
 .our-team-title {
   text-align: center;
 }
@@ -122,11 +136,16 @@ body {
   text-align: center;
   color: var(--color-title);
   cursor: pointer;
+  background: var(--background);
+  border-radius: 4px;
 }
 .filters-btn:focus,
 .filters-btn:hover {
-  color: #ffffff;
+  color: var(--background-color);
   background-color: var(--color-link);
+}
+.galery-link {
+  text-decoration: none;
 }
 .gallery-title {
   font-size: 18px;
@@ -136,6 +155,7 @@ body {
 .gallery-about {
   font-size: 16px;
   line-height: 1.87;
+  color: #757575;
 }
 /*=============END PORTFOLIO=============*/
 /*=============FOOTER=============*/
@@ -143,14 +163,18 @@ body {
   background-color: rgba(0, 0, 0, 1);
 }
 .basement-logo {
-  color: #ffffff;
+  color: var(--color-text-two);
 }
 .ft-adres {
   font-style: normal;
 }
 .adres {
   line-height: 1.71;
-  color: #ffffff;
+  color: var(--color-text-two);
   text-decoration: none;
+}
+.foot-link {
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
 }
 /*=============END FOOTER=============*/
