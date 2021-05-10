@@ -160,7 +160,7 @@ body {
 /*=============END PORTFOLIO=============*/
 /*=============FOOTER=============*/
 .basement {
-  background-color: rgba(0, 0, 0, 1);
+  background-color: #2f303a;
 }
 .basement-logo {
   color: var(--color-text-two);
